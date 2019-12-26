@@ -17,5 +17,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin: 120px auto;
     background: rgb(238,174,202);
     background: linear-gradient(40deg, rgba(238,174,202,1) 0%, rgba(105,170,246,1) 100%);
-    border-radius: 35px;
+    border-radius: 55px;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: 0px 53px 45px -8px rgba(14,121,235,0.52);
+    -moz-box-shadow: 0px 53px 45px -8px rgba(14,121,235,0.52);
+    box-shadow: 0px 53px 45px -8px rgba(14,121,235,0.52);
+      
+}
+.inner {
+    width: 160px;
+    height: 160px;
+    background: #ffffff;
+    margin: 68px auto;
+    border-radius: 45px;
+    -webkit-box-shadow: 0px 28px 45px -8px rgba(14,121,235,0.52);
+-moz-box-shadow: 0px 28px 45px -8px rgba(14,121,235,0.52);
+box-shadow: 0px 28px 45px -8px rgba(14,121,235,0.52);
 }
